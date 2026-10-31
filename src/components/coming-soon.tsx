@@ -32,17 +32,8 @@ export default function ComingSoon({
           <Icon className="size-12" style={{ color }} />
         </div>
 
-        {/* Badge Segera Hadir */}
-        <div
-          className="inline-flex items-center gap-2 neo-btn px-4 py-1.5 font-mono text-xs font-bold mb-4 animate-slide-up-delay-1"
-          style={{ backgroundColor: `${color}12`, color }}
-        >
-          <Clock className="size-3.5" />
-          SEGERA HADIR
-        </div>
-
         <h1 className="text-2xl sm:text-3xl font-mono font-bold mb-2 animate-slide-up-delay-1">
-          {title}
+          {title} - Coming Soon
         </h1>
         <p className="text-sm font-mono mb-3" style={{ color: "var(--neo-muted-text)" }}>
           {subtitle}
